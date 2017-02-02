@@ -31,5 +31,9 @@ int main(int argc,char* argv[]){
     }
 	
 	fun();
+	
+	
+	
+	hello 
 	return 0;
 }
