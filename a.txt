@@ -18,6 +18,9 @@ int  fun(){
 int main(int argc,char* argv[]){
 	
     char szBuf[] = "12345@#$#fs&*(&";
+	
+	printf("hello");
+	
 	int i;
     for(i = 0; i < strlen(szBuf); i++){
         if(isalnum(szBuf[i])){
