@@ -3,37 +3,21 @@
 #include <string.h>
 
 
-int  fun(){
-    printf("hello");
-	printf("hello");
-	printf("hello");
-	printf("hello");
-	printf("hello");
-	printf("hello");
-	printf("hello");
-	
-	return 0;	
-}
-
 int main(int argc,char* argv[]){
 	
     char szBuf[] = "12345@#$#fs&*(&";
-	
-	printf("hello");
-	
 	int i;
+	
     for(i = 0; i < strlen(szBuf); i++){
-        if(isalnum(szBuf[i])){
+		
+        if(isalnum(szBuf[i]))
+		{
             printf("%c This is a character \r\n",szBuf[i]);
-        }else{
+        }else
+		{
             printf(" %c This is not a character \r\n",szBuf[i]);
         }
     }
 	
-	fun();
-	
-	
-	
-	hello world
 	return 0;
 }
