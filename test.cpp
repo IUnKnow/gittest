@@ -6,7 +6,7 @@
 int main(int argc,char* argv[]){
 	
     char szBuf[] = "12345@#$#fs&*(&";
-	int i;
+	int i = 0;
 	
     for(i = 0; i < strlen(szBuf); i++){
 		
@@ -18,6 +18,7 @@ int main(int argc,char* argv[]){
             printf(" %c This is not a character \r\n",szBuf[i]);
         }
     }
+	 printf("hello \r\n",szBuf[i]);
 	
 	return 0;
 }
